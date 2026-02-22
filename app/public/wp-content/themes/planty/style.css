@@ -5,3 +5,52 @@
  * Text Domain:	   planty
  * Description:    Child theme from Kadence
  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+label {
+    display: block;
+    font-size: 20px;
+    font-family: 'Syne', sans-serif;
+}
+
+.Nom,
+.email {
+    display: block;
+    width: 383px;
+    height: 71px;
+    margin-top: 7px;
+    border: none !important;
+    border-radius: 7px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: 'Syne', sans-serif;
+}
+
+.message {
+    display: block;
+    width: 383px;
+    height: 237px;
+    margin-top: 7px;
+    border: none !important;
+    border-radius: 7px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    resize: none;
+    font-family: 'Syne', sans-serif;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 198px;
+    height: 55px;
+    background-color: #DFB8B3 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 92.5px;
+    font-family: 'Syne', sans-serif;
+}
