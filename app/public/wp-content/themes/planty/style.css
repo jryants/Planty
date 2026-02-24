@@ -41,7 +41,7 @@ label {
     font-family: 'Syne', sans-serif;
 }
 
-input[type="submit"] {
+.bouton {
     display: block;
     width: 198px;
     height: 55px;
@@ -52,5 +52,85 @@ input[type="submit"] {
     font-size: 15px;
     cursor: pointer;
     margin-left: 92.5px;
+    font-family: 'Syne', sans-serif;
+}
+
+
+.commande p {
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    justify-content: center;
+    gap: 92px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 60px !important;
+}
+
+.nb {
+    text-align: center;
+    width: 39px;
+    height: 56px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+h3 {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    font-family: 'Syne', sans-serif !important;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+}
+
+.vosinfos {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+
+.livraison {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.field {
+    width: 383px;
+    height: 71px;
+    border-radius: 7px !important;
+    margin-top: 5px;
+}
+
+.infos label {
+    color: white;
+}
+
+.commander {
+    display: block;
+    width: 198px;
+    height: 55px;
+    font-size: 15px !important;
+    background-color: #DFB8B3 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 324.5px !important;
+    margin-top: 50px;
     font-family: 'Syne', sans-serif;
 }
