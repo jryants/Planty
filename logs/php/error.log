@@ -4,3 +4,6 @@
 [24-Feb-2026 06:03:11 UTC] PHP Parse error:  syntax error, unexpected variable "$items" in /home/ryan/Local Sites/planty/app/public/wp-content/themes/planty/functions.php on line 42
 [24-Feb-2026 06:03:11 UTC] PHP Parse error:  syntax error, unexpected variable "$items" in /home/ryan/Local Sites/planty/app/public/wp-content/themes/planty/functions.php on line 42
 [24-Feb-2026 06:03:11 UTC] PHP Parse error:  syntax error, unexpected variable "$items" in /home/ryan/Local Sites/planty/app/public/wp-content/themes/planty/functions.php on line 42
+[24-Feb-2026 06:25:20 UTC] PHP Warning:  Undefined array key "pro-free-trial-popup" in /home/ryan/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/pro-free-trial-popup/module.php on line 118
+[24-Feb-2026 06:25:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryan/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/pro-free-trial-popup/module.php on line 118
+[24-Feb-2026 06:25:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryan/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/pro-free-trial-popup/module.php on line 118
