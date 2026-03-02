@@ -9,10 +9,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
 
+
 label {
     display: block;
     font-size: 20px;
     font-family: 'Syne', sans-serif;
+}
+
+h2 {
+    text-align: center !important;
 }
 
 .Nom,
@@ -30,6 +35,7 @@ label {
 
 .message {
     display: block;
+    position: relative;
     width: 383px;
     height: 237px;
     margin-top: 7px;
@@ -39,10 +45,18 @@ label {
     box-shadow: none !important;
     resize: none;
     font-family: 'Syne', sans-serif;
+    z-index: 2;
+}
+
+.deco {
+    position: absolute;
+    bottom: 80px;
+    left: -90px;
+    z-index: 1;
 }
 
 .bouton {
-    display: block;
+    display: block !important;
     width: 198px;
     height: 55px;
     background-color: #DFB8B3 !important;
@@ -51,8 +65,19 @@ label {
     color: #fff;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 92.5px;
     font-family: 'Syne', sans-serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commande img {
+    width: 260px;
+    display: none !important;
 }
 
 
@@ -61,10 +86,17 @@ label {
     flex-direction: row;
     width: 860px;
     justify-content: center;
-    gap: 92px;
     padding-bottom: 40px;
     border-bottom: 1px solid white;
     margin-bottom: 60px !important;
+}
+
+.commande p {
+    gap: 0;
+}
+
+.commande .wpcf7-form-control-wrap {
+    margin: 0 92px; /* replaces gap, only applies to inputs */
 }
 
 .nb {
@@ -120,7 +152,8 @@ h3 {
 }
 
 .commander {
-    display: block;
+    display: block !important;
+    position: relative;
     width: 198px;
     height: 55px;
     font-size: 15px !important;
@@ -130,9 +163,16 @@ h3 {
     color: #fff;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 324.5px !important;
     margin-top: 50px;
     font-family: 'Syne', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 
 
@@ -140,3 +180,76 @@ h3 {
     padding-left: 10px !important;
     padding-right: 25px !important;
 }
+
+@media (max-width: 1170px) {
+
+    .element {
+        display: none;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .dimage {
+        display: none;
+    }
+
+    .votrecommande {
+        text-align: center !important;
+        align-self: center;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vosinfos {
+        border: none;
+        padding: 0;
+        padding-bottom: 60px;
+    }
+
+    .livraison {
+        padding: 0;
+    }
+
+    .commander {c
+        margin-top: 60px;
+    }
+
+    .commande p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 15px;
+    }
+
+    .commande img {
+    display:block !important;
+}
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .Nom,
+    .email,
+    .message {
+        width: 300px;
+    }
+
+    .field {
+    width: 300px;
+}
+}
+
